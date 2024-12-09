@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.CodeDom;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -20,6 +21,11 @@ namespace git
         {
             InitializeComponent();
             Console.WriteLine("lol");
+        }
+
+        private void minus_Click(object sender, RoutedEventArgs e)
+        {
+            final.Text = ((Int32.Parse(a.Text) - Int32.Parse(b.Text))).ToString();
         }
 
         private void plus_Click(object sender, RoutedEventArgs e)
