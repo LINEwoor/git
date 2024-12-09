@@ -23,6 +23,11 @@ namespace git
             Console.WriteLine("lol");
         }
 
+        private void mult_Click(object sender, RoutedEventArgs e)
+        {
+            final.Text = (Int32.Parse(a.Text) * Int32.Parse(b.Text)).ToString();
+        }
+
         private void minus_Click(object sender, RoutedEventArgs e)
         {
             final.Text = ((Int32.Parse(a.Text) - Int32.Parse(b.Text))).ToString();
