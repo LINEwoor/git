@@ -24,7 +24,7 @@ namespace git
 
         private void mult_Click(object sender, RoutedEventArgs e)
         {
-            final.Text = (Int32.Parse(a.Text) * Int32.Parse(a.Text)).ToString();
+            final.Text = (Int32.Parse(a.Text) * Int32.Parse(b.Text)).ToString();
         }
     }
 }
