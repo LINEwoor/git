@@ -13,7 +13,7 @@
         <Button x:Name="plus" Content="+" HorizontalAlignment="Left" Height="51" Margin="199,226,0,0" VerticalAlignment="Top" Width="134" Click="plus_Click"/>
         <Button x:Name="devide" Content="/" HorizontalAlignment="Left" Height="53" Margin="442,320,0,0" VerticalAlignment="Top" Width="173" Click="devide_Click"/>
         <Button x:Name="mult" Content="*" HorizontalAlignment="Left" Height="49" Margin="199,317,0,0" VerticalAlignment="Top" Width="121" Click="mult_Click"/>
-        <Button x:Name="minus" Content="-" HorizontalAlignment="Left" Height="50" Margin="308,217,0,0" VerticalAlignment="Top" Width="134" Click="minus_Click"/>
+        <Button x:Name="minus" Content="-" HorizontalAlignment="Left" Height="50" Margin="462,217,0,0" VerticalAlignment="Top" Width="134" Click="minus_Click"/>
 
     </Grid>
 </Window>
