@@ -21,5 +21,10 @@ namespace git
             InitializeComponent();
             Console.WriteLine("lol");
         }
+
+        private void mult_Click(object sender, RoutedEventArgs e)
+        {
+            final.Text = (Int32.Parse(a.Text) * Int32.Parse(a.Text)).ToString();
+        }
     }
 }
