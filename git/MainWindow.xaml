@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="36" Margin="200,108,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="145"/>
+        <TextBlock HorizontalAlignment="Left" Height="36" Margin="432,108,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="145"/>
+        <Button x:Name="plus" Content="Button" HorizontalAlignment="Left" Height="38" Margin="200,179,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="minus" Content="Button" HorizontalAlignment="Left" Height="38" Margin="285,179,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="mult" Content="Button" HorizontalAlignment="Center" Height="38" Margin="0,179,0,0" VerticalAlignment="Top" Width="60"/>
+        <Button x:Name="devid" Content="Button" HorizontalAlignment="Left" Height="38" Margin="454,179,0,0" VerticalAlignment="Top" Width="60"/>
 
     </Grid>
 </Window>

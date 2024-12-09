@@ -19,7 +19,8 @@ namespace git
         public MainWindow()
         {
             InitializeComponent();
-            Console.WriteLine("lol");
         }
+
+       
     }
 }
